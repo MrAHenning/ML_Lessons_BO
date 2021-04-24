@@ -9,3 +9,13 @@ conda activate lesson_01_env
 
 # Run jupyterlab
 jupyter-lab
+
+
+# Work around:
+
+conda install pandas
+conda install numpy
+conda install matplotlib
+conda install seaborn
+conda install scikit-learn
+conda install -c conda-forge pandas-profiling
