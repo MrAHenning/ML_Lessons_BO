@@ -1,0 +1,1 @@
+conda create -n lesson_01_env --file req.txt
