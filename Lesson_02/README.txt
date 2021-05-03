@@ -10,6 +10,12 @@ conda activate lesson_02_env
 # Run jupyterlab
 jupyter-lab
 
+# Note: Large files need git "large file system" (lfs) support, and can be installed with
+git install lfs
+
+# Note: To compress and upload large files:
+git lfs migrate importe --include="*.csv"
+
 # Note: If large files are compressed, you can uncompress them with:
 git lfs pull
 
